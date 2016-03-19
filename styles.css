@@ -616,7 +616,15 @@ input[type="submit"]:hover {
 i {
 	margin-top: 2rem;
 	min-width: 25px;
+  margin-left: 1rem;
 	text-decoration: none;
+}
+
+fa {
+  margin-top: 2rem;
+  min-width: 25px;
+  margin-left: 1rem;
+  text-decoration: none;
 }
 
 /*--Media Queries--*/
@@ -776,7 +784,7 @@ i {
 		padding-top: 4.5rem;
 		line-height: 1.5;
 	}
-	
+
 	.new-collection {
 		font-size: 1.25rem;
 	}
