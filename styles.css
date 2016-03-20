@@ -220,7 +220,7 @@ a:hover {
  .screen-reader {
 	overflow:hidden;
  	border: 0;
- 	clip: rect(0 0 0 0);
+ 	clip: rect(0,0,0,0);
  	height: 1px;
  	margin: -1px;
  	padding: 0;
@@ -233,7 +233,7 @@ a:hover {
 .site-header {
  background-color: white;
  border-bottom: 1px solid #d7d7d7;
- box-shadow: 0px 1px 6px, rgba (100, 100, 100, 0.15);
+ box-shadow: 0px 1px 6px,rgba(100,100,100,0.15);
  left: 0;
  position: fixed;
  top: 0;
@@ -273,7 +273,8 @@ a:hover {
 
 .navigation {
 	align-self: center;
-	flex: 1 0 auto;
+	flex-grow: 1;
+  flex-shrink: 0;
   order: 3;
 	padding-top: 0.25rem;
 }
@@ -312,9 +313,8 @@ a:hover {
 
 .banner-text {
 	color: white;
-	font-weight:bold
-	position: absolute;
-	line-height: 1.75;
+	font-weight:bold;
+	line-height: .8;
 	margin-top: 7rem;
 	text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
 }
@@ -515,7 +515,7 @@ a:hover {
 }
 
 .signup-header h2 {
-	text-shadow: 2px 2px 4px, rgba(100, 100, 100, 0.8);
+	text-shadow: 2px 2px 4px,rgba(100,100,100,0.8);
 }
 
 .updates-heavy {
@@ -833,5 +833,3 @@ fa {
 	}
 
 }
-
-/*--Footer--*/
