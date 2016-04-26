@@ -508,6 +508,7 @@ a:hover {
     url(images/wave-bkgd.jpg)no-repeat center bottom;
 		color: white;
 		margin-bottom: 8px;
+    text-align: center;
 }
 
 .signup-wrapper {
@@ -615,6 +616,7 @@ input[type="submit"]:hover {
 	font-family: 'Raleway Web', sans-serif;
 	font-weight: lighter;
 	list-style: none;
+  padding-left: 0;
 	text-decoration: none;
 }
 
@@ -719,8 +721,9 @@ fa {
 
 	/*--Signup Section--*/
 
-	.signup-text {
-		max-width: 720px;
+  .signup-wrapper {
+		text-align: center;
+		width: 720px;
 	}
 
 	.signup-form {
